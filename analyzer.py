@@ -75,9 +75,16 @@ class AdvancedTextAnalyzer:
 
 if __name__ == "__main__":
     sample_dataset = (
-        "Anthropic models provide excellent performance for developers worldwide. "
-        "Building open-source software is great, but maintaining clean code can be a complex problem. "
-        "This platform executes localized data parsing instantly and avoids any severe error."
+        "The integration of modern technology into secondary education has transformed "
+        "how students approach research and academic writing. In the past, writing a "
+        "comprehensive history essay required hours of manual searching through library "
+        "archives and physical textbooks. Today, digital databases provide instant access "
+        "to global resources, which significantly improves the depth of student projects. "
+        "However, this shift also introduces challenges, such as navigating massive amounts "
+        "of information and verifying source credibility. Teachers emphasize that technology "
+        "is a powerful tool, but critical thinking remains the core requirement for success. "
+        "Ultimately, balanced use of digital systems helps students develop essential analytical "
+        "skills for their future academic careers."
     )
 
     print("[SYSTEM] Initializing AuraText NLP Core Engine...")
